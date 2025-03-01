@@ -1,0 +1,20 @@
+site_name: Deep Learning Specialization
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+
+nav:
+  - Home: index.md
+  - Neural Networks & Deep Learning: course1.md
+
+markdown_extensions:
+  - pymdownx.arithmatex: 
+      generic: true
+
+extra_javascript:
+    - https://polyfill.io/v3/polyfill.min.js
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
